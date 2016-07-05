@@ -1,6 +1,6 @@
 {
   "name": "sclint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Souche lint command line tool",
   "main": "index.js",
   "bin": {
