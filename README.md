@@ -1,5 +1,16 @@
 # sclint
 
+## Installation
+
+``` bash
+$ npm install -g sclint
+```
+
+> if you use `snpm`, run command
+> ```
+> $ snpm install -g sclint
+> ```
+
 ## Usage
 
 ```
@@ -14,3 +25,7 @@ $ sclint init
 - [ ] 增加测试
 - [ ] 增加文档
 - [ ] 增加规则示例
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
