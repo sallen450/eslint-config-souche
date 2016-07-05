@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+'use strict';
+
+require('commander')
+    .version(require('../package').version)
+    .usage('<command> [options]')
+    .command('init', 'init souche f2e eslint rules')
+    .parse(process.argv);
