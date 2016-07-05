@@ -6,10 +6,10 @@
 $ npm install -g sclint
 ```
 
-> if you use `snpm`, run command
-> ```
-> $ snpm install -g sclint
-> ```
+if you use `snpm`, run command:
+```
+$ snpm install -g sclint
+```
 
 ## Usage
 
