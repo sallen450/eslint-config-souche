@@ -1,4 +1,4 @@
-## sclint
+# sclint
 
 ## Usage
 
