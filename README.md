@@ -11,15 +11,30 @@ if you use `snpm`, run command:
 $ snpm install -g sclint
 ```
 
-### 编辑器插件
+### 编辑器配置
 
-#### 1. sublime text 3
+#### 1. vim
+
+> 推荐使用 Vundle 管理插件
+
+- 安装插件
+	```
+	Plugin 'scrooloose/syntastic'
+	Plugin 'mtscout6/syntastic-local-eslint.vim'
+	```
+- 配置 .vimrc
+	```
+	let g:syntastic_javascript_checkers = ['eslint']
+	```
+
+#### 2. sublime text 3
 
 - `cmd` + `shift` + `p`
 - 输入 `install package`，回车
-- 输入 `SublimeLinter-contrib-eslint`，安装这个插件
+- 安装 `SublimeLinter` 插件
+- 安装 `SublimeLinter-contrib-eslint` 插件
 
-#### 2. atom
+#### 3. atom
 
 - `cmd` + `,`
 - 选择 `package` 一栏
