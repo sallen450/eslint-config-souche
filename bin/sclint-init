@@ -30,7 +30,7 @@ process.on('exit', function() {
 });
 
 function main() {
-    var eslintrcContent = jetpack.read(path.join(__dirname, '../templates/eslintrc.json'));
+    var eslintrcContent = jetpack.read(path.join(__dirname, '../templates/eslintrc.js'));
 
     if (jetpack.exists(path.join(process.cwd(), '.eslintrc'))) {
         jetpack.move(path.join(process.cwd(), '.eslintrc'), path.join(process.cwd(), '.eslintrc.old'));
@@ -44,11 +44,11 @@ function main() {
         jetpack.move(path.join(process.cwd(), '.eslintrc.json'), path.join(process.cwd(), '.eslintrc.json.old'));
     }
 
-    jetpack.file(path.join(process.cwd(), '.eslintrc.json'), {
+    jetpack.file(path.join(process.cwd(), '.eslintrc.js'), {
         content: eslintrcContent
     });
 
-    console.log(chalk.green('  ✓ generate eslintrc.json success'));
+    console.log(chalk.green('  ✓ generate eslintrc.js success'));
     console.log();
     console.log();
     console.log(chalk.gray('  run command to install dependencies: '));
