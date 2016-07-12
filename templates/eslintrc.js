@@ -23,18 +23,16 @@ module.exports = {
         "consistent-return": 0,
         "constructor-super": 2,
         "default-case": 0,
-        "dot-location": [
-            2,
-            {
-                commentPattern: '^no default$'
-            }
-        ],
+        "dot-location": 0,
         "dot-notation": 0,
         "func-names": 0,
         "func-style": 0,
-        "generator-star": [
+        'generator-star-spacing': [
             2,
-            "start"
+            {
+                before: false,
+                after: true
+            }
         ],
         "guard-for-in": 2,
         "handle-callback-err": [
