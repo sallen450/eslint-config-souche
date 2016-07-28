@@ -34,6 +34,7 @@ module.exports = {
                 after: true
             }
         ],
+        "global-require": 0,
         "guard-for-in": 2,
         "handle-callback-err": [
             2,
